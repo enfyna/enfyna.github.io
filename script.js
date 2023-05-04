@@ -663,7 +663,7 @@ function _startProcess(delta) {
         };
     }
     else {
-        //startCanvas2D.clearRect(0, 0, windowWidth, windowHeight);
+        startCanvas2D.clearRect(0, 0, windowWidth, windowHeight);
 
         let grdnt = startCanvas2D.createRadialGradient(
             mousePosX, mousePosY, 50, mousePosX, mousePosY, 2500);
