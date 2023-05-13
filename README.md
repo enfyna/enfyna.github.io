@@ -21,3 +21,9 @@ Siteyi ilk açtığınızda ekranın ortasındaki başlat tuşuna basarak oyunu 
 - Oyun İçi 
 
 ![enerji_dolu](https://github.com/enfyna/enfyna.github.io/assets/91965312/fe8191c0-cc74-4e23-9812-7bfc0595374a)
+
+### Oynanış Videosu
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9GaZ--_8was/0.jpg)](https://www.youtube.com/watch?v=9GaZ--_8was)
+
+
