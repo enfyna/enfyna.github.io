@@ -6,7 +6,7 @@ Web Programlama dersinin oyun geliştirme projesi için yaptığım JavaScript o
 
 ### Nasıl Oynanır ?
 
-Oyunu bu linkten açabilirsiniz :  
+Oyuna bu linkten ulaşabilirsiniz :  
 
 Link : https://enfyna.github.io/
 
