@@ -24,6 +24,6 @@ Siteyi ilk açtığınızda ekranın ortasındaki başlat tuşuna basarak oyunu 
 
 ### Oynanış Videosu
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9GaZ--_8was/0.jpg)](https://www.youtube.com/watch?v=9GaZ--_8was)
+[![Oynanış Videosu](https://img.youtube.com/vi/9GaZ--_8was/0.jpg)](https://www.youtube.com/watch?v=9GaZ--_8was)
 
 
