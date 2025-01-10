@@ -1,0 +1,39 @@
+Privacy Policy
+
+Last updated: Fri Jan 10 04:53:36 PM +03 2025
+
+City Builder ("the Game") is a city-building game developed by enfyna. Your privacy is important to us, and this Privacy Policy explains how we handle your information.
+
+Information We Collect
+
+We do not collect, store, or process any personal data from users of the Game. The Game is designed to provide an enjoyable experience without requiring access to your personal information.
+
+Third-Party Services
+
+The Game uses the following third-party services:
+
+Google AdMob
+
+We use Google AdMob to display advertisements within the Game. AdMob may collect and process certain data to provide personalized or non-personalized ads. Please review Google's Privacy Policy to understand how they handle your data: https://policies.google.com/privacy.
+
+Google Play Games Services
+
+The Game integrates with Google Play Games Services to save your game progress and provide features like achievements and leaderboards. This service is managed by Google, and data handling is governed by Google's Privacy Policy: https://policies.google.com/privacy.
+
+Data Security
+
+Since we do not collect any personal data, there is no data for us to secure. However, any data handled by third-party services is managed under their respective privacy policies and security measures.
+
+Children’s Privacy
+
+The Game is intended for general audiences and does not knowingly collect personal data from children. If you believe your child has provided personal data through the third-party services used in the Game, please contact Google directly.
+
+Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. Updates will be reflected by the "Last updated" date at the top of this policy. We encourage you to review this Privacy Policy periodically for any changes.
+
+Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us at:
+
+Email: ramazanaslan21901@gmail.com
