@@ -1,24 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramazan Aslan - Portfolyo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <ul>
-        <hr>
-        <li>
-            <h6>JavaScript oyunum : </h6><a href="js-tank/index.html">js-tank</a>
-        </li>
-        <hr>
-        <li>
-            <h6>Firefox eklentim : </h6><a href="fx-new-tab/index.html">fx-new-tab</a>
-        </li>
-        <hr>
-        <li>
-            <h6>Readme As GIF projem : </h6><a href="https://readme-as-gif.vercel.app">readme-as-gif</a>
-        </li>
-        <hr>
-    </ul>
+    <div class="container">
+        <div class="personal-info">
+            <div class="personal-header">
+                <img src="https://github.com/enfyna.png" alt="Profile Picture" class="personal-avatar">
+                <div class="personal-title">
+                    <h2 class="personal-name">Ramazan Aslan</h2>
+                    <p class="personal-role"></p>
+                    <p class="personal-location">📍 Denizli, Türkiye</p>
+                </div>
+            </div>
+            <div class="personal-bio">
+                Yazılım geliştirme alanında çalışan bir geliştiriciyim; ağırlıklı olarak TypeScript, C ve Python ile projeler üretiyorum. Temiz, sürdürülebilir ve işlevsel kod yazmaya odaklanırım.
+            </div>
+            <div class="personal-skills">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Git</span>
+            </div>
+            <div class="personal-contact">
+                <a href="mailto:ramazanaslan21901@gmail.com" class="contact-link">
+                    📧 ramazanaslan21901@gmail.com
+                </a>
+                <a href="https://linkedin.com/in/ramazanaslann" class="contact-link" target="_blank">
+                    💼 LinkedIn
+                </a>
+                <a href="https://instagram.com/enfyna" class="contact-link" target="_blank">
+                    📷 Instagram
+                </a>
+            </div>
+        </div>
+
+        <div class="stats-container" id="statsContainer">
+            <div class="stat-card">
+                <div class="stat-number" id="totalRepos">-</div>
+                <div class="stat-label">Toplam Proje</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalStars">-</div>
+                <div class="stat-label">Toplam Yıldız</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalForks">-</div>
+                <div class="stat-label">Toplam Fork</div>
+            </div>
+        </div>
+
+        <div class="sort-controls">
+            <button class="sort-btn active" onclick="sortProjects('stars', this)">Yıldıza Göre</button>
+            <button class="sort-btn" onclick="sortProjects('updated', this)">Güncel Tarihe Göre</button>
+            <button class="sort-btn" onclick="sortProjects('name', this)">İsme Göre</button>
+        </div>
+
+        <div id="loading" class="loading">
+            GitHub projeleriniz yükleniyor
+        </div>
+
+        <div id="projectsContainer" class="projects-grid" style="display: none;">
+        </div>
+
+        <div id="errorMessage" class="error-message" style="display: none;">
+            Projeler yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Ramazan Aslan</h2>
+            <p class="footer-subtitle">...</p>
+
+            <div class="social-links">
+                <a href="https://github.com/enfyna" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">🐙</div>
+                    <div class="social-label">GitHub</div>
+                </a>
+
+                <a href="https://linkedin.com/in/ramazanaslann" class="social-link" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="social-icon">💼</div>
+                    <div class="social-label">LinkedIn</div>
+                </a>
+
+                <a href="https://instagram.com/enfyna" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">📷</div>
+                    <div class="social-label">Instagram</div>
+                </a>
+
+                <a href="mailto:ramazanaslan21901@gmail.com" class="social-link">
+                    <div class="social-icon">📧</div>
+                    <div class="social-label">Email</div>
+                </a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
